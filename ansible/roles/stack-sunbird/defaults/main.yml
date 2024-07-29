@@ -1076,6 +1076,3 @@ youtube_app_name: fetch-youtube-license
 youtube_api_key: "{{ lp_vault_youtube_api_key }}"
 pgssl: "false"
 
-# ML changes
-ml_capture_user_profile : "{{ ml_capture_user_profile | default('False') }}"
-ml_capture_organisation_name : "{{ ml_capture_organisation_name | default('False') }}"
