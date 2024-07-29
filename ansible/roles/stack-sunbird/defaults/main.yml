@@ -1075,3 +1075,7 @@ cloud_store_base_path_placeholder: "CLOUD_BASE_PATH"
 youtube_app_name: fetch-youtube-license
 youtube_api_key: "{{ lp_vault_youtube_api_key }}"
 pgssl: "false"
+
+# ML changes
+capture_user_profile : "False"
+capture_organisation_name : "False"
