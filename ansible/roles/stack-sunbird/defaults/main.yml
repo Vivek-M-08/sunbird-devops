@@ -1077,5 +1077,5 @@ youtube_api_key: "{{ lp_vault_youtube_api_key }}"
 pgssl: "false"
 
 # ML changes
-capture_user_profile : "False"
-capture_organisation_name : "False"
+ml_capture_user_profile : "{{ ml_capture_user_profile }}"
+ml_capture_organisation_name : "{{ ml_capture_organisation_name }}"
